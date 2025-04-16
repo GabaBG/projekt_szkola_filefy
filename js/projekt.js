@@ -13,7 +13,6 @@ if (savedTheme) {
   updateThemeIcon(savedTheme);
 }
 
-// zmiana motywu
 themeToggle.addEventListener("click", () => {
   const currentTheme = body.getAttribute("data-theme");
   const newTheme = currentTheme === "light" ? "dark" : "light";
@@ -23,7 +22,6 @@ themeToggle.addEventListener("click", () => {
   updateThemeIcon(newTheme);
 });
 
-// zmiana icona
 function updateThemeIcon(theme) {
   const icon = themeToggle.querySelector("i");
   if (theme === "light") {
@@ -33,7 +31,6 @@ function updateThemeIcon(theme) {
   }
 }
 
-// Hamburger Menu
 document.addEventListener("DOMContentLoaded", () => {
   const hamburger = document.querySelector(".hamburger");
   const navMenu = document.querySelector(".nav-menu");
