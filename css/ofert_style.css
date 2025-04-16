@@ -43,7 +43,6 @@
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-/* Navigation */
 .nav-menu a {
   color: #ffffff !important;
 }
@@ -52,7 +51,6 @@
   color: var(--accent-color) !important;
 }
 
-/* Pricing Section */
 .pricing {
   padding: 4rem 2rem;
   max-width: 1200px;
@@ -163,7 +161,6 @@
   box-shadow: 0 4px 8px var(--shadow-color);
 }
 
-/* Comparison Table */
 .features-comparison {
   padding: 4rem 2rem;
   max-width: 1200px;
@@ -210,7 +207,6 @@ tr:last-child td {
   border-bottom: none;
 }
 
-/* FAQ Section */
 .faq {
   padding: 4rem 2rem;
   max-width: 1200px;
@@ -254,7 +250,6 @@ tr:last-child td {
   line-height: 1.6;
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
   .services-header h1 {
     font-size: 2.5rem;
